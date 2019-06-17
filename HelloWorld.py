@@ -15,7 +15,7 @@ def hello_world():
         liste.append("coucou"+str(t+1))
         t=t+1
 
-    return liste
+    return str(liste)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=port)
