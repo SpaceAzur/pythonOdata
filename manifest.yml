@@ -1,0 +1,6 @@
+---
+applications:
+- name: firstPythonApp
+  memory: 128M
+  command: python HelloWorld.py
+  buildpack: https://github.com/cloudfoundry/buildpack-python.git
